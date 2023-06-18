@@ -57,8 +57,9 @@ CMAKE_PATHS[7]="/Applications/CMake 2.6-3/Contents"
 CMAKE_PATHS[8]="/Applications/CMake 2.6-4/Contents"
 CMAKE_PATHS[9]="/Applications/CMake 2.8-1/Contents"
 CMAKE_PATHS[10]="/Applications/CMake 2.8-2/Contents"
+CMAKE_PATHS[11]="/opt/homebrew"
 CMAKE=""
-for f in 1 2 3 4 5 6 7 8 9 10
+for f in 1 2 3 4 5 6 7 8 9 10 11
 do
   if [ -e "${CMAKE_PATHS[$f]}/bin/cmake" ]
   then
